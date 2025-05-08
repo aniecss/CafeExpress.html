@@ -5,47 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Express Café</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <h1>Express Café</h1>
         <p>O sabor que move o seu dia</p>
     </header>
-    <nav>
+
+    <nav aria-label="Navegação principal">
         <a href="#sobre">Sobre</a>
         <a href="#cardapio">Cardápio</a>
         <a href="#contato">Contato</a>
     </nav>
 
-    <div class="hero">
-        Bem-vindo ao Express Café
-    </div>
+    <main>
+        <div class="hero">
+            Bem-vindo ao Express Café
+        </div>
 
-    <section id="sobre" class="sobre-bg">
-        <h2>Sobre Nós</h2>
-        <p>O Express Café nasceu da paixão por café de qualidade, servindo sabores intensos em um ambiente acolhedor.</p>
-    </section>
+        <section id="sobre" class="sobre-bg">
+            <h2>Sobre Nós</h2>
+            <p>O Express Café nasceu da paixão por café de qualidade, servindo sabores intensos em um ambiente acolhedor.</p>
+        </section>
 
-    <section id="cardapio">
-        <h2>Cardápio</h2>
-        <div class="menu-item"><strong>Espresso</strong> - R$ 6,00</div>
-        <div class="menu-item"><strong>Cappuccino</strong> - R$ 10,00</div>
-        <div class="menu-item"><strong>Latte</strong> - R$ 9,00</div>
-        <div class="menu-item"><strong>Pão de queijo</strong> - R$ 5,00</div>
-        <div class="menu-item"><strong>Bolo de cenoura</strong> - R$ 7,00</div>
-    </section>
+        <section id="cardapio">
+            <h2>Cardápio</h2>
+            <div class="menu-item"><strong>Espresso</strong> - R$ 6,00</div>
+            <div class="menu-item"><strong>Cappuccino</strong> - R$ 10,00</div>
+            <div class="menu-item"><strong>Latte</strong> - R$ 9,00</div>
+            <div class="menu-item"><strong>Pão de queijo</strong> - R$ 5,00</div>
+            <div class="menu-item"><strong>Bolo de cenoura</strong> - R$ 7,00</div>
+        </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Endereço: Rua do Café Express, Rio de Janeiro, 123 - Centro</p>
-        <p>Horário: Seg a Sáb - 9h às 20h</p>
-        <p>WhatsApp: (21) 91234-5678</p>
-        <p>Email: contato@expresscafe.com</p>
-    </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Endereço: Rua do Café Express, Rio de Janeiro, 123 - Centro</p>
+            <p>Horário: Seg a Sáb - 9h às 20h</p>
+            <p>WhatsApp: <a href="https://wa.me/5521912345678" target="_blank">(21) 91234-5678</a></p>
+            <p>Email: <a href="mailto:contato@expresscafe.com">contato@expresscafe.com</a></p>
+        </section>
+    </main>
 
     <footer>
-        <p>Siga-nos nas redes sociais: @expresscafe</p>
+        <p>
+            <i class="fab fa-instagram"></i>
+            <a href="https://instagram.com/expresscafe" target="_blank">@expresscafe</a>
+        </p>
         <p>&copy; 2025 Express Café. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- Ícone flutuante do WhatsApp -->
+    <a href="https://wa.me/5521912345678" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>
